@@ -13,7 +13,7 @@ The Eatsage app features three AI agents:
 3. *Restaurant Agent*
 
 ### Customer Agent
-The Customer Agent's backend is responsible for sending trigger notifications to the Restaurant Agent when an order is placed. The frontend is a basic chat interface powered by Lama-3.
+The Customer Agent's backend is responsible for sending trigger notifications to the Restaurant Agent when an order is placed. The frontend is a basic chat interface powered by tiiuae/falcon-180b-chat.
 
 ### Restaurant Agent
 The Restaurant Agent's backend sends trigger notifications to the Valet Agent when an order is accepted by the restaurant. The frontend displays a list of all available order requests.
