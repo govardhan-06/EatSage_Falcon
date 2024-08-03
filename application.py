@@ -95,7 +95,7 @@ async def cust_prompt(prompt:str):
             try:
                 data = json.load(f)
             except json.JSONDecodeError as e:
-                raise customException(f"Error reading JSON file: {str(e)}", sys)
+                return customException(f"Error reading JSON file: {str(e)}", sys)
 
         return JSONResponse(content={"message": "Success","restauarant":data["restaurant"], "dishes": data['dishes']}, status_code=200)
 

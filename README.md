@@ -8,32 +8,36 @@ Eatsage is an innovative food delivery application that integrates AI and Blockc
 
 The Eatsage app features three AI agents:
 
-1. *Customer Agent*
-2. *Valet Agent*
-3. *Restaurant Agent*
+1. _Customer Agent_
+2. _Valet Agent_
+3. _Restaurant Agent_
 
 ### Customer Agent
+
 The Customer Agent's backend is responsible for sending trigger notifications to the Restaurant Agent when an order is placed. The frontend is a basic chat interface powered by tiiuae/falcon-180b-chat.
 
 ### Restaurant Agent
+
 The Restaurant Agent's backend sends trigger notifications to the Valet Agent when an order is accepted by the restaurant. The frontend displays a list of all available order requests.
 
 ### Valet Agent
+
 The Valet Agent's frontend is a list view of all delivery options, allowing the valet to accept or decline orders.
 
 ### Additional Features
+
 - The Customer Agent can find nearby restaurants using the device's location.
 - Payments are processed through the Fetch Blockchain using the Almanac smart contract. Users must purchase 'FET' tokens, and payments are made automatically.
 
 ## Environment Variables
 
-The .env file contains the following environment variables. 
-*Note:* The values below are dummy values and should be replaced with actual credentials.
+The .env file contains the following environment variables.
+_Note:_ The values below are dummy values and should be replaced with actual credentials.
 
 ```sh
 MONGO_DB_URI="mongodb+srv://username:password@restaurant.mongodb.net/?retryWrites=true&w=majority&appName=Restaurant"
-GROQ_API_KEY="gsk_dummy_api_key"
-GEMINI_API_KEY="AIzaSy_dummy_api_key"
+AI71_BASE_URL = "https://api.ai71.ai/v1/"
+AI71_API_KEY = "dummy-api-address"
 
 USER_EMAIL_ADDRESS="user@example.com"
 EATSAGE_MASTERKEY="dummy_master_key"

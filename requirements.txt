@@ -3,7 +3,8 @@ bs4
 pymongo[srv]
 python-dotenv
 uagents
-langchain-groq
+langchain
+langchain-openai
 uagents-ai-engine
 geocoder
 geopy
