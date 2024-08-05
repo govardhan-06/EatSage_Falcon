@@ -39,24 +39,23 @@ MONGO_DB_URI="mongodb+srv://username:password@restaurant.mongodb.net/?retryWrite
 AI71_BASE_URL = "https://api.ai71.ai/v1/"
 AI71_API_KEY = "dummy-api-address"
 
-USER_EMAIL_ADDRESS="user@example.com"
-EATSAGE_MASTERKEY="dummy_master_key"
-
 # Customer Agent
 CUST_NAME="EatSage_Customer"
-CUST_SEED_PHRASE="<dummy value>"
-CUST_ADDRESS="agent1q0dummyaddress"
-CUST_MAILBOX="7750ebca-3cb0-4c9e-93be-dummy_mailbox"
+CUST_SEED_PHRASE="customer is the king. Welcome to EatSage!!"
+CUST_ADDRESS="agent1q0k2rwfj5up9s7z8896pyrchzqawdywcj4ua4vwhfdky0fstvvjtqu3f9kw"
+CUST_STORAGE="agent1q0k2rwfj5u_data.json"
 
 # Delivery Partner Agent
 DEL_NAME="EatSage_Delivery"
-DEL_SEED_PHRASE="<dummy value>"
-DEL_ADDRESS="agent1qdummyaddress"
+DEL_SEED_PHRASE="EatSage delivery partner, committed to customer service"
+DEL_ADDRESS="agent1qgu230r5w774zhc88ncs8ume2v9hzuf7crfeqn5r4pxmk98jp46wsg2mpdx"
+DEL_STORAGE="agent1qgu230r5w7_data.json"
 
 # Restaurant Agent
 RES_NAME="EatSage_Restaurant"
-RES_SEED_PHRASE="<dummy value>"
-RES_ADDRESS="agent1qdummyaddress"
+RES_SEED_PHRASE="We are the elite eatsage restaurants!! Food Quality and Customer service is our topmost priority"
+RES_ADDRESS="agent1q2h5xkny4c9kmde7c7hy3394y708us338j55a5y0yfk3t3udwqrxk4zp73s"
+RES_STORAGE="agent1q2h5xkny4c_data.json"
 ```
 
 ## Installation
