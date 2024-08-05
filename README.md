@@ -3,7 +3,6 @@
 ## Overview
 
 Eatsage is an innovative food delivery application that integrates AI and Blockchain technology to enhance the user experience. This app utilizes AI agents dedicated to specific tasks, creating a seamless and efficient system for food ordering and delivery.
-Pitch Deck: [https://drive.google.com/drive/folders/1_w2t6GcBHMcVP6SyOtO6S071G00ElwS_?usp=sharing](Presentation)
 
 ## How Does the App Work?
 
