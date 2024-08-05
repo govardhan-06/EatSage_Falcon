@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144073498773",
+    "project_id": "eatsage-b3731",
+    "storage_bucket": "eatsage-b3731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144073498773:android:e2e111f4db4557cc94fb9c",
+        "android_client_info": {
+          "package_name": "com.example.eatsage_frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYwVPWLIJKg-z7sAsmZpmQdO2pg9eTSzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
